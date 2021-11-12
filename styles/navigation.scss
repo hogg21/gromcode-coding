@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 50px;
+    &__title {
+        font-size: 2.25em;
+        letter-spacing: 0.1px;
+        font-weight: 400;
+    }
+    &__search {
+        display: flex;
+        margin-left: auto;
+    }
+    &__filter, &__sort {
+        display: flex;
+        flex-direction: column;
+    }
+    &__sort {
+        margin-left: 30px;
+    }
+}
+label {
+    font-size: 0.75em;
+    font-weight: 700;
+    color: #666;
+    // text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+select {
+    font-size: 16px;
+    border: 0;
+    background-color: #f7f7f7;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: -5px;
+}
